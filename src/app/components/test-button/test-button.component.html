@@ -1,0 +1,6 @@
+<button (click)="fetchData()">Получить данные</button>
+<ul>
+  <li *ngFor="let item of items">
+    {{ item.name }}: {{ item.description }}
+  </li>
+</ul>
